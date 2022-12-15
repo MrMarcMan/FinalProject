@@ -1,0 +1,149 @@
+html {
+    background-color: rgb(10, 10, 10);
+}
+
+.container {
+    border-radius: 25px;
+    min-height: fit-content;
+    width: 100vw;
+    border: 5px solid rgb(54, 200, 38);
+}
+.full {
+    border-radius: 25px;
+    min-height: auto;
+    margin-bottom: 2px;
+    background-color: red;
+}
+
+.right {
+    border-radius: 25px;
+    min-height: 42vw;
+    font-size: small;
+    font-family:'Tillana', cursive;
+    background-color: blueviolet;
+    width: 39%;
+    margin-bottom: 5px;
+    float: right;
+
+}
+
+.left {
+    border-radius: 25px;
+    margin-right: 5px;
+    font-size: medium;
+    min-height: 20vw;
+    background-color: blueviolet;
+    width: 60%;
+    margin-bottom: 5px;
+}
+
+header {
+    font-family: 'Zen Dots', cursive;
+    font-size: 200%;
+    padding: 2%;
+    color: rgb(4, 6, 1);
+    text-align: center;
+}
+
+nav {
+    min-height: 5vw;
+    background-image: repeating-conic-gradient(red 10%, rgb(20, 5, 108) 20%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: sticky;
+    top: 20px;
+    font-size: x-large;
+    color: greenyellow;
+    text-align: center;
+    border: greenyellow;
+}
+
+section {
+    min-height: 100%;
+    font-size: small;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 5px 10px;
+    color: rgb(14, 14, 13);
+}
+
+
+article {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    box-shadow: 5px 10px;
+    color: rgb(7, 7, 7);
+}
+
+footer {
+    border-radius: 25px;
+    min-height: 7vw;
+    text-align: center;
+    background-image: repeating-conic-gradient(red 10%, rgb(20, 5, 108) 20%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+
+}
+
+h2 {
+    font-size: x-large;
+}
+
+
+aside {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    
+}
+
+.longer {
+    height: 600px;
+}
+
+
+li {
+    display: inline-block;
+    position: left;
+
+}
+
+a {
+    margin-left: 10px;
+}
+
+a:link {
+    padding: 14px 25px;
+    border: 1.5px solid green;
+    background-color: black;
+    color: azure;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+a:hover {
+    color: blue;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
